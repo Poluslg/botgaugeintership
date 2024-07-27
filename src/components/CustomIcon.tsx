@@ -7,8 +7,9 @@ function CustomIcon({ Alphabet, color }: Props) {
   return (
     <div
       className="h-6 w-9 text-sm font-semibold text-white text-center rounded-md"
+      //@ts-ignore
       style={{
-        background: color as String,
+        background: color,
       }}
     >
       {Alphabet}
