@@ -8,7 +8,7 @@ function CustomIcon({ Alphabet, color }: Props) {
     <div
       className={`h-6 w-9 text-sm font-semibold text-white text-center rounded-md`}
       style={{
-        background: color || "#FFAAAA",
+        background: color,
       }}
     >
       {Alphabet}
