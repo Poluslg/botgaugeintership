@@ -6,8 +6,7 @@ type Props = {
 function CustomIcon({ Alphabet, color }: Props) {
   return (
     <div
-      className="h-6 w-9 text-sm font-semibold text-white text-center rounded-md"
-      //@ts-ignore
+      className="h-6 w-9 text-sm font-semibold text-white rounded-md flex items-center justify-center"
       style={{
         background: color,
       }}

@@ -4,12 +4,12 @@ export const GobalDataMap = [
   {
     id: 1,
     name: "test",
-    icon: <CustomIcon Alphabet="G" />,
+    icon: <CustomIcon Alphabet="G" color={"#9b59b6"} />,
   },
   {
     id: 2,
     name: "test67",
-    icon: <CustomIcon Alphabet="G" />,
+    icon: <CustomIcon Alphabet="G" color={"#9b59b6"}  />,
   },
 ];
 

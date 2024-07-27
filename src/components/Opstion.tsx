@@ -47,13 +47,16 @@ function Opstion({ item }: Props) {
                 "
                 <span
                   contentEditable={_item.isEditable}
-                  className="outline-none select-none cursor-pointer "
+                  className="outline-none select-none cursor-pointer"
                 >
                   {_item.id === 4 && value ? (
-                    <div className="border h-12 w-16 bg-red-300">
-                      {value?.icon}
-                      {value?.name}
-                    </div>
+                    <>
+                      {_item.text}
+                      <div className="flex items-center gap-2 text-[#9b59b6] absolute top-2 bg-white w-full">
+                        {value?.icon}
+                        {value?.name}
+                      </div>
+                    </>
                   ) : (
                     <>{_item.text}</>
                   )}
